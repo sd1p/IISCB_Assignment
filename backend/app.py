@@ -4,9 +4,10 @@ import cv2
 import numpy as np
 import base64
 from libs.image_proccessing import detect_annotate_objects
+from flask_cors import CORS
+
 app = Flask(__name__)
-
-
+CORS(app)
 @app.route('/detect_objects', methods=['POST'])
 def detect_objects():
     if 'file' not in request.files:

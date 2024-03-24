@@ -2,4 +2,8 @@ Flask==2.2.3
 numpy==1.26.4
 opencv_python==4.9.0.80
 Pillow==10.2.0
-torch==2.0.0+cu118
+torch==2.0.0 --index-url https://download.pytorch.org/whl/cpu
+gunicorn
+Werkzeug==2.2.2
+pandas
+requests==2.26.0
