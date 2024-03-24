@@ -58,4 +58,7 @@ systems.
 https://github.com/sd1p/IISCB_Assignment/assets/43758514/5edc6d3e-4a20-464d-8405-449c9d832c1d
 
 
+![image](https://github.com/sd1p/IISCB_Assignment/assets/43758514/e0c97ad4-b3d2-47fb-a4c1-cd93284f10ad)
+![image](https://github.com/sd1p/IISCB_Assignment/assets/43758514/fa2e84d2-a72a-4835-9eac-d715a8bbe540)
+
 
