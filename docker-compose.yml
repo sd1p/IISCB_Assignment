@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend  # Path to the directory containing the Next.js frontend code
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backend  # Path to the directory containing the Flask backend code
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app
+    ports:
+      - "5000:5000"

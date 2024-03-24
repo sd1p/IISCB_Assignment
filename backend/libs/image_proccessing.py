@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # Load YOLOv5 model
-model = torch.hub.load('ultralytics/yolov5', 'custom', './yolov5s.pt')
+model = torch.hub.load('ultralytics/yolov5', 'custom', '/yolov5s.pt')
 
 # Define vehicle classes
 vehicle_classes = ['car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat']
